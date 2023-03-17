@@ -5,13 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400&family=Raleway:wght@100;200;300;500&display=swap" rel="stylesheet">
     <title>Alura geek| Home</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/header/header.css">
+    <link rel="stylesheet" href="./CSS/Login/login.css">
+    <link rel="stylesheet" href="./CSS/talkWithUs/talkWithUs.css">
 </head>
 
 <body>
     <header>
-        menu
+        <img src="./assets/Logo.png" alt="Logo__aluraGeek" class="header__logo">
+        <div class="header__search__container">
+            <input class="search_bar" type="text" placeholder="¿Que deseas buscar?">
+        </div>
     </header>
+
+    <main>
+        <section class="login__box">
+            <form action="" class="login__form">
+                <label for="">Iniciar Sesión</label>
+                <input type="text" class="login__input_email" placeholder="Escriba su correo Electronico">
+                <input type="text" class="login__input_password" placeholder="Escriba su contraseña">
+                <button class="login__btn_login btn-model">Entrar</button>
+            </form>
+        </section>
+        <section class="talkWithUs__box">
+            <div class="container__top">
+                <img src="./assets/Logo.png" alt="" class="talkWithUs__logo">
+                <ul class="talkWithUs__list">
+                    <li class="list_item"><a href="">Quienes somos</a></li>
+                    <li class="list_item"><a href="">Politicas de privacidad</a></li>
+                    <li class="list_item"><a href="">Programa de fidelidad</a></li>
+                    <li class="list_item"><a href="">Nuestras tiendas</a></li>
+                    <li class="list_item"><a href="">Quiero ser franquiciado</a></li>
+                    <li class="list_item"><a href="">Anúncie aquí</a></li>
+                </ul>
+            </div>
+            <div class="container__bot">
+                <form action="" class="talkWhitUs__form">
+                    <label for="">Hable con nosotros</label>
+                    <input type="text" class="talkWithUs__name">
+                    <input type="text" class="talkWithUs__message">
+                    <button class="talkWithUs__send">Enviar mensaje</button>
+                </form>
+            </div>
+        </section>
+
+    </main>
 </body>
+<script src="./JS/inputSearch.js">
+</script>
 
 </html>
