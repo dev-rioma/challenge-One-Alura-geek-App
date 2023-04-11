@@ -1,0 +1,17 @@
+{
+    "productos": [{
+            "nombre": "Taza stormtrooper",
+            "id": 1,
+            "image": "./assets/products/unsplash_6FDXGY9J6y4",
+            "price": "$12.00",
+            "cuantity": 5
+        },
+        {
+            "nombre": "Taza stormtrooper",
+            "id": 1,
+            "image": "./assets/products/unsplash_6FDXGY9J6y4",
+            "price": "$12.00",
+            "cuantity": 5
+        }
+    ]
+}
