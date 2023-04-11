@@ -1,0 +1,50 @@
+.Products_main {
+    background-color: #F5F5F5;
+    padding: 4rem 9.5rem;
+}
+
+.box_title_add {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.list_products {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 4rem 1rem;
+}
+
+.product_box {
+    width: 176px;
+    height: 249px;
+    min-width: 176px;
+    max-width: 176px;
+    min-height: 249px;
+    max-height: 249px;
+}
+
+.container_img_product {
+    width: 176px;
+    height: 174px;
+}
+
+.btn_delete {
+    position: relative;
+    bottom: 169px;
+    left: 110px;
+}
+
+.btn_edit {
+    position: relative;
+    bottom: 171px;
+    left: 121px;
+}
+
+.box_info_product p {
+    margin: 0.5rem 0;
+    font-size: 12px;
+}
